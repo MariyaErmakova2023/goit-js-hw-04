@@ -1,5 +1,5 @@
 function calcAverageCalories(days) {
-  sumAllCalories = 0;
+  let sumAllCalories = 0;
   if (Object.keys(days).length > 0) {
     for (const day of days) {
       sumAllCalories += day.calories;
